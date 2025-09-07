@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS resumes (
+  id SERIAL PRIMARY KEY,
+  name TEXT,
+  email TEXT,
+  phone TEXT,
+  linkedin TEXT,
+  summary TEXT,
+  work_experience JSONB,
+  education JSONB,
+  projects JSONB,
+  certifications JSONB,
+  technical_skills JSONB,
+  soft_skills JSONB,
+  rating INTEGER,
+  feedback TEXT,
+  suggested_skills JSONB,
+  file_name TEXT,
+  raw_text TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

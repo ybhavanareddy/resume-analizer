@@ -1,0 +1,12 @@
+/* App.css - minimal styling */
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+.app { max-width:1000px; margin:20px auto; padding:10px; }
+header { display:flex; justify-content:space-between; align-items:center; }
+nav button { margin-left:8px; }
+.panel { padding:12px; border:1px solid #ddd; margin-top:12px; border-radius:6px; }
+.history-table { width:100%; border-collapse:collapse; margin-top:8px; }
+.history-table th, .history-table td { border:1px solid #eee; padding:6px; text-align:left; }
+.modal { position:fixed; inset:0; background:rgba(0,0,0,0.6); display:flex; align-items:center; justify-content:center; }
+.modal-inner { background:white; padding:18px; max-width:800px; width:90%; border-radius:8px; max-height:80vh; overflow:auto; }
+.close { float:right; }
+.error { color:crimson; }
